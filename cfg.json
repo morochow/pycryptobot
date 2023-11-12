@@ -43,7 +43,7 @@
         "sellsmartswitch": 0,
         "trailingbuypcnt": 0.5,
         "telegramtradesonly": 0,
-        "granularity": "1m",
+        "granularity": "15m",
         "use_sell_fee": 1
     }
 }
