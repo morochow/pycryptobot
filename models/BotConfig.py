@@ -44,7 +44,7 @@ class BotConfig:
 
         self.log_width = 180
 
-        self.granularity = Granularity.ONE_MINUTE
+        self.granularity = Granularity.FIFTEEN_MINUTES
         self.base_currency = "GAS"
         self.quote_currency = "USDT"
         self.is_live = 1
