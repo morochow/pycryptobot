@@ -1,44 +1,32 @@
 {
     "config": {
         "autorestart": 1,
-        "base_currency": "ADA",
+        "base_currency": "AVAX",
+        "disablebullonly": 1,
+        "disablebuyelderray": 1,
+        "disablebuyema": 0,
+        "disablebuymacd": 0,
         "disablebuynearhigh": 1,
+        "disablebuyobv": 1,
+        "disablefailsafefibonaccilow": 1,
+        "disablelog": 0,
+        "disabletracker": 1,
+        "disableprofitbankreversal": 1,
         "enableinsufficientfundslogging": 1,
         "enabletelegrambotcontrol": 1,
-        "granularity": "15m",
         "live": 1,
-        "nobuynearhighpcnt": 1,
+        "logbuysellinjson": 1,
+        "nobuynearhighpcnt": 4,
         "nosellmaxpcnt": 3,
-        "nosellminpcnt": -9,
-        "quote_currency": "USDT",
-        "sellatresistance": 1,
+        "nosellminpcnt": -3,
+        "quote_currency": "GBP",
+        "sellatloss": 1,
+        "sellatresistance": 0,
         "selllowerpcnt": -12,
-        "telegram": 1,
         "trailingbuypcnt": 1,
-        "trailingstoploss": -1,
-        "trailingstoplosstrigger": 3,
-        "verbose": 0,
+        "trailingstoploss": -1.5,
+        "trailingstoplosstrigger": 6,
         "websocket": 0
-    },
-    "data": {
-        "all_trades": {
-            "fees": 0.0,
-            "margin": 1,
-            "profit_loss": 3,
-            "quote_currency": "USDT",
-            "value_buys": 0.05
-        },
-        "buy_count": 1,
-        "first_trade": {
-            "size": 1000
-        },
-        "last_trade": {
-            "margin": "1",
-            "size": 0.1
-        },
-        "margin": 0.0,
-        "open_buy_excluded": 1,
-        "sell_count": 1
     },
     "exchange": "binance"
 }
