@@ -28,6 +28,8 @@
         "disablebuyobv" : 1,
         "disablebuyelderray" : 0,
         "disablefailsafefibonaccilow" : 0,
+        "sellatfibonaccilow" : 1,
+        "profitbankreversal" : 1,
         "disableprofitbankreversal" : 0,
         "disabletracker" : 1,
         "disabletelegram" : 1,
