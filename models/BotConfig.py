@@ -47,18 +47,18 @@ class BotConfig:
         self.granularity = Granularity.ONE_HOUR
         self.base_currency = "GAS"
         self.quote_currency = "USDT"
-        self.is_live = 0
+        self.is_live = 1
         self.save_graphs = 0
         self.is_sim = 0
         self.simstartdate = None
         self.simenddate = None
         self.sim_speed = "fast"
         self.sell_upper_pcnt = None
-        self.sell_lower_pcnt = None
-        self.nosellminpcnt = None
-        self.nosellmaxpcnt = None
-        self.trailing_stop_loss = 0.0
-        self.trailing_stop_loss_trigger = 0.0
+        self.sell_lower_pcnt = -12
+        self.nosellminpcnt = -3
+        self.nosellmaxpcnt = 3
+        self.trailing_stop_loss = -1.5
+        self.trailing_stop_loss_trigger = 6
         self.dynamic_tsl = False
         self.tsl_multiplier = 1.1
         self.tsl_trigger_multiplier = 1.1
@@ -72,7 +72,7 @@ class BotConfig:
 
         self.telegram = False
 
-        self.logbuysellinjson = False
+        self.logbuysellinjson = True
         self.telegramdatafolder = "."
 
         self.buypercent = 100
@@ -84,7 +84,7 @@ class BotConfig:
         self.sellfullbaseamount = True
 
         self.buylastsellsize = False
-        self.trailingbuypcnt = 0
+        self.trailingbuypcnt = 1
         self.trailingimmediatebuy = False
         self.trailingbuyimmediatepcnt = None
         self.marketmultibuycheck = False
@@ -101,7 +101,7 @@ class BotConfig:
         self.statgroup = None
         self.statstartdate = None
         self.statdetail = False
-        self.nobuynearhighpcnt = 3
+        self.nobuynearhighpcnt = 4
         self.simresultonly = False
 
         self.disablebullonly = False
