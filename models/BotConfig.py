@@ -45,8 +45,8 @@ class BotConfig:
         self.log_width = 180
 
         self.granularity = Granularity.ONE_HOUR
-        self.base_currency = "BTC"
-        self.quote_currency = "GBP"
+        self.base_currency = "AVAX"
+        self.quote_currency = "USDT"
         self.is_live = 0
         self.save_graphs = 0
         self.is_sim = 0
