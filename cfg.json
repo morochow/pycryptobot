@@ -1,4 +1,7 @@
-{ 
+{
+    "binance": {
+    "api_url": "https://api.binance.com",
+    "api_key_file": "binance.key",
     "config" : {
         "exchange" : "binance",
         "api_key_file": "binance.key",
@@ -48,4 +51,5 @@
         "granularity": "15m",
         "use_sell_fee": 1
     }
+}
 }
